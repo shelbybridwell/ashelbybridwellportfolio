@@ -21,3 +21,13 @@
     font-size: 25px;
 
 }
+@media only screen and (max-width:600px) {
+    div.example {
+        font-size: 80px;
+}
+}
+@media screen and (max-width: 300px) {
+    div.example {
+      font-size: 30px;
+    }
+}
